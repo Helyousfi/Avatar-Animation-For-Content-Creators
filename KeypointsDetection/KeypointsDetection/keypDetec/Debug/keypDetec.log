@@ -1,0 +1,5 @@
+﻿  Source.cpp
+Source.obj : error LNK2019: symbole externe non résolu "public: __thiscall cv::Mat::~Mat(void)" (??1Mat@cv@@QAE@XZ) référencé dans la fonction _main
+Source.obj : error LNK2019: symbole externe non résolu "class cv::Mat __cdecl cv::imread(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)" (?imread@cv@@YA?AVMat@1@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z) référencé dans la fonction _main
+C:\opencv\opencv\build\x64\vc15\lib\opencv_world455d.lib : warning LNK4272: type d'ordinateur bibliothèque 'x64' en conflit avec le type d'ordinateur cible 'x86'
+C:\Users\hamza\Desktop\PROJECT\KeypointsDetection\KeypointsDetection\keypDetec\Debug\keypDetec.exe : fatal error LNK1120: 2 externes non résolus
